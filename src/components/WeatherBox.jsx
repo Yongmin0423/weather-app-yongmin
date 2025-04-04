@@ -1,7 +1,9 @@
 import styles from "./WeatherBox.module.css";
 
 function WeatherBox({ weatherData }) {
-  console.log(weatherData);
+  if (!weatherData) {
+    return <div>Loading...</div>;
+  }
   const {
     name,
     main: { humidity, temp },
