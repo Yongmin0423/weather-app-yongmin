@@ -1,10 +1,15 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+
 body {
+  font-family: "Pretendard Variable", sans-serif;
+
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("https://images.unsplash.com/photo-1592210454359-9043f067919b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  box-sizing: border-box;
 }
 
 .container {
@@ -13,4 +18,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+.loading {
+  margin-bottom: 50px;
 }
